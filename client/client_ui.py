@@ -1,0 +1,95 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'untitled.ui'
+#
+# Created by: PyQt5 UI code generator 5.14.1
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(584, 540)
+        self.label = QtWidgets.QLabel(Form)
+        self.label.setGeometry(QtCore.QRect(20, 30, 54, 12))
+        self.label.setObjectName("label")
+        self.ipAddress = QtWidgets.QLineEdit(Form)
+        self.ipAddress.setGeometry(QtCore.QRect(70, 20, 113, 20))
+        self.ipAddress.setObjectName("ipAddress")
+        self.label_2 = QtWidgets.QLabel(Form)
+        self.label_2.setGeometry(QtCore.QRect(220, 30, 54, 12))
+        self.label_2.setObjectName("label_2")
+        self.port = QtWidgets.QLineEdit(Form)
+        self.port.setGeometry(QtCore.QRect(260, 20, 113, 20))
+        self.port.setObjectName("port")
+        self.connectButton = QtWidgets.QPushButton(Form)
+        self.connectButton.setGeometry(QtCore.QRect(410, 20, 151, 23))
+        self.connectButton.setObjectName("connectButton")
+        self.textBrowser = QtWidgets.QTextBrowser(Form)
+        self.textBrowser.setGeometry(QtCore.QRect(30, 60, 531, 192))
+        self.textBrowser.setObjectName("textBrowser")
+        self.label_3 = QtWidgets.QLabel(Form)
+        self.label_3.setGeometry(QtCore.QRect(20, 380, 54, 12))
+        self.label_3.setObjectName("label_3")
+        self.nickName = QtWidgets.QLineEdit(Form)
+        self.nickName.setGeometry(QtCore.QRect(60, 380, 113, 20))
+        self.nickName.setObjectName("nickName")
+        self.label_4 = QtWidgets.QLabel(Form)
+        self.label_4.setGeometry(QtCore.QRect(330, 380, 54, 12))
+        self.label_4.setObjectName("label_4")
+        self.key = QtWidgets.QLineEdit(Form)
+        self.key.setGeometry(QtCore.QRect(370, 380, 113, 20))
+        self.key.setObjectName("key")
+        self.message = QtWidgets.QTextEdit(Form)
+        self.message.setGeometry(QtCore.QRect(30, 420, 441, 101))
+        self.message.setObjectName("message")
+        self.sendButton = QtWidgets.QPushButton(Form)
+        self.sendButton.setGeometry(QtCore.QRect(490, 430, 75, 31))
+        self.sendButton.setObjectName("sendButton")
+        self.sendCodecButton = QtWidgets.QPushButton(Form)
+        self.sendCodecButton.setGeometry(QtCore.QRect(490, 490, 75, 31))
+        self.sendCodecButton.setObjectName("sendCodecButton")
+        self.label_5 = QtWidgets.QLabel(Form)
+        self.label_5.setGeometry(QtCore.QRect(20, 270, 54, 12))
+        self.label_5.setObjectName("label_5")
+        self.label_6 = QtWidgets.QLabel(Form)
+        self.label_6.setGeometry(QtCore.QRect(20, 310, 54, 12))
+        self.label_6.setObjectName("label_6")
+        self.lineEdit = QtWidgets.QLineEdit(Form)
+        self.lineEdit.setGeometry(QtCore.QRect(50, 260, 511, 20))
+        self.lineEdit.setObjectName("lineEdit")
+        self.lineEdit_2 = QtWidgets.QLineEdit(Form)
+        self.lineEdit_2.setGeometry(QtCore.QRect(50, 300, 511, 20))
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.jiami = QtWidgets.QPushButton(Form)
+        self.jiami.setGeometry(QtCore.QRect(50, 330, 75, 23))
+        self.jiami.setObjectName("jiami")
+        self.jiemi = QtWidgets.QPushButton(Form)
+        self.jiemi.setGeometry(QtCore.QRect(260, 330, 75, 23))
+        self.jiemi.setObjectName("jiemi")
+        self.qingchu = QtWidgets.QPushButton(Form)
+        self.qingchu.setGeometry(QtCore.QRect(480, 330, 75, 23))
+        self.qingchu.setObjectName("qingchu")
+
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "客户端"))
+        self.label.setText(_translate("Form", "ip地址"))
+        self.label_2.setText(_translate("Form", "端口"))
+        self.connectButton.setText(_translate("Form", "连接服务器"))
+        self.label_3.setText(_translate("Form", "昵称"))
+        self.label_4.setText(_translate("Form", "秘钥"))
+        self.sendButton.setText(_translate("Form", "发送"))
+        self.sendCodecButton.setText(_translate("Form", "加密发送"))
+        self.label_5.setText(_translate("Form", "明文"))
+        self.label_6.setText(_translate("Form", "密文"))
+        self.jiami.setText(_translate("Form", "加密"))
+        self.jiemi.setText(_translate("Form", "解密"))
+        self.qingchu.setText(_translate("Form", "清除"))
